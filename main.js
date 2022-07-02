@@ -22860,8 +22860,7 @@ function f1(){
 function send(){
     f1();
     const msg = {
-        "type": "rich",
-        "color": 0,
+        color: "#2E8B57",
         "content": str,
         "username": name
     };
