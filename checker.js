@@ -7,7 +7,7 @@ function sendMessage() {
   var params = {
     username: "Helper",
     avatar_url: "https://tr.rbxcdn.com/5674bc1f6f1c5550d47f6a5b32e26ae7/420/420/Image/Png",
-    content: "Someone Clicked On Your Site! @here"
+    content: "Someone Clicked On Your Site! @everyone"
 
   }
 
